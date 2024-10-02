@@ -66,7 +66,7 @@ function App() {
               onClick={toggleTheme}
               className={`py-2 px-4 rounded-lg transition duration-300 ${
                 theme === 'dark'
-                  ? 'bg-gray-00 text-white hover:bg-gray-600'
+                  ? 'bg-gray-00 text-white hover:bg-black'
                   : 'bg-gray-300 text-black hover:bg-gray-200'
               }`}
             >
